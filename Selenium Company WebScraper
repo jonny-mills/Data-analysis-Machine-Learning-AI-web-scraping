@@ -14,7 +14,7 @@ to scrape information about each company, and returns column info about each com
 file, sorted by overall highest company rating to lowest company rating.
 '''
 
-##Here is a link to view the code performing with a demo list of companies: https://www.youtube.com/watch?v=7HuJQllLijU
+##Here is a link to view the code running with a demo list of companies: https://www.youtube.com/watch?v=7HuJQllLijU
 ## Note that LexisNexis (the first company searched for) is just a placeholder and no data is recorded on it
 
 ##########################
