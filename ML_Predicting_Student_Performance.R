@@ -1,14 +1,21 @@
 rm(list = ls())
 #Team 2-5
 
+'''
+The dataset being analyzed contains real-world data about student performance in Math and Portugese classes from two Portuguese secondary schools. 
+Mark reports and questionaries were used to compile the data. Our model analyzes different factors such as 
+parent occupation, study time, number of absences, ect. to predict student performance.
+The objective of the model is to identify failing students early and provide additional assistance, tutoring, ext.
+'''
+##Link to the final presentation: https://docs.google.com/presentation/d/1-HuE26hCWLJqLN5ttMeTKMWeu-TDMIiIRahWLt-K5-c/edit?usp=sharing
+
 #######################
 #Prepare data
 #######################
 ##Commented link: https://archive.ics.uci.edu/ml/datasets/student+performance
 
 d1=read.table("student-mat.csv",sep=",",header=TRUE)
-d2=read.table("student-por.csv",sep=",",header=TRUE)
-
+d2=read.table("student-por.csv",sep=",",header=TRUE
 d3=rbind(d1,d2,by=c("school","sex","age","address","famsize","Pstatus","Medu","Fedu","Mjob","Fjob","reason","nursery","internet"))
 
 #d3 = d3[,-c(31,32)] # delete G1, G2
@@ -211,6 +218,8 @@ mean(testset$newG3 != prtestBest)
 table.b[1, 2] / sum(table.b[1, ])
 # # type II error
 table.b[2, 1] / sum(table.b[2, ])
+              
+
 
 
 ##########
