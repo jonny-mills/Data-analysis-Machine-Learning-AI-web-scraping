@@ -6,9 +6,9 @@ Created on Thu Apr 12 08:47:42 2018
 """
 '''
 Problem: there are too many applications for nursery school, and our school can't accommodate all of them. 
-Overall objective: Our goal it to develop an ANN model that will evaluate applicants based on different attributes such as occupation of parents, 
-family structure, financial standing, social conditions of the family, and health of the family. According to the data set information online: 
-the final decision depends on these different predictor variables, and a complex expert decision- making set of rules was created to classify observations. 
+Our goal is to develop an ANN model that will evaluate applicants based on different attributes such as occupation of parents, 
+family structure, financial standing, social conditions of the family, and health of the family. 
+The final decision depends on these different predictor variables, and a complex set of rules was created to classify observations. 
 Our goal is to use ANN to adopt a model that can ideally almost perfectly classify applicants based on their attribute information.
 Our output variable will be a categorical variable that describes the level of recommendation for that applicant. 
 There are three levels that we intend to classify applicants: acceptance, wait-list, and rejection.
