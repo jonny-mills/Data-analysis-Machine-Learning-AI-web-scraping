@@ -1,6 +1,6 @@
 # Data-and-web-scraping
 
-*bold*
+**bold**
 
 ## second heading
 
